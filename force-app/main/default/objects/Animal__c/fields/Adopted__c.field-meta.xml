@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adopted__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Specifies if the animal is adopted or not.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if the animal is adopted.</inlineHelpText>
+    <label>Adopted</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

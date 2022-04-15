@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BirthDate__c</fullName>
+    <description>Birth Date of the Animal.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please enter the birth date of the animal. This field can be blank if the birth date is unknown.</inlineHelpText>
+    <label>Birth Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

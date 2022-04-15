@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vaccinated__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Vaccination status of the animal.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please check this box if the animal is vaccinated.
+If the vaccination status is unknown, please leave the box unchecked.</inlineHelpText>
+    <label>Vaccinated</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
