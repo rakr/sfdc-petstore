@@ -156,8 +156,9 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Animal</label>
     <nameField>
-        <label>Animal Name</label>
-        <type>Text</type>
+        <displayFormat>A-{0000000}</displayFormat>
+        <label>Animal Internal Identifier</label>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Animals</pluralLabel>
     <searchLayouts></searchLayouts>
