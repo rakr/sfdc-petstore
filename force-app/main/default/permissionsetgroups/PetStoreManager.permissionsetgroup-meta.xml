@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grants Management rights over the Pet Store App.
+This Permission Sets Group should be granted to regular users who are managing the Pet Store on a regular basis.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>PetStoreManager</label>
+    <permissionSets>PetInformationManagement</permissionSets>
+    <permissionSets>PetStoreApp</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
