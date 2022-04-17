@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AnimalCompactLayout</fullName>
+    <fields>AnimalName__c</fields>
+    <fields>BirthDate__c</fields>
+    <fields>Species__c</fields>
+    <fields>Owner__c</fields>
+    <label>Animal Compact Layout</label>
+</CompactLayout>
