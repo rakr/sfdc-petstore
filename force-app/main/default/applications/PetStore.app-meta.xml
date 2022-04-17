@@ -16,6 +16,7 @@ Give a better life to a best friends...</description>
     <label>Pet Store</label>
     <navType>Standard</navType>
     <tabs>Animal__c</tabs>
+    <tabs>Booking__c</tabs>
     <tabs>standard-Contact</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Pet_Store_UtilityBar</utilityBar>

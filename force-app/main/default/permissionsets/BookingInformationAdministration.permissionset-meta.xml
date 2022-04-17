@@ -27,4 +27,8 @@
         <object>Booking__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabSettings>
+        <tab>Booking__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>
