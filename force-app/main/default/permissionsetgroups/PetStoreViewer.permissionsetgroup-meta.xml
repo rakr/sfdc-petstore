@@ -4,5 +4,8 @@
 This Permission Sets Group should be granted to users who need access to the information on the Pet Store App but are not managing the Pet Store regularly.</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>PetStoreViewer</label>
+    <permissionSets>BookingInformationView</permissionSets>
+    <permissionSets>PetInformationView</permissionSets>
+    <permissionSets>PetStoreApp</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

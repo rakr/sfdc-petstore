@@ -3,6 +3,7 @@
     <description>Grants Admin rights over the Pet Store App</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>PetStore Administrator</label>
+    <permissionSets>BookingInformationAdministration</permissionSets>
     <permissionSets>PetInformationAdministration</permissionSets>
     <permissionSets>PetStoreApp</permissionSets>
     <status>Updated</status>
