@@ -94,6 +94,10 @@
         <tab>Animal__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>Booking__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
