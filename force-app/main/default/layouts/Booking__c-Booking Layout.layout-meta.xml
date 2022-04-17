@@ -23,10 +23,6 @@
                 <behavior>Edit</behavior>
                 <field>StartTime__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Type__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -34,11 +30,12 @@
                 <field>OwnerId</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>AnimalOwner__c</field>
+                <behavior>Edit</behavior>
+                <field>Type__c</field>
             </layoutItems>
             <layoutItems>
-                <emptySpace>true</emptySpace>
+                <behavior>Readonly</behavior>
+                <field>AnimalOwner__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

@@ -16,6 +16,11 @@
         <field>Booking__c.StartTime__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Booking__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Booking Information View</label>
     <objectPermissions>
@@ -29,6 +34,10 @@
     </objectPermissions>
     <tabSettings>
         <tab>Animal__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Booking__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
 </PermissionSet>
