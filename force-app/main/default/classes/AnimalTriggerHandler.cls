@@ -1,4 +1,17 @@
+/**
+ * @description Handles the different database events happening on the
+ *              Animal__c SObject.
+ */
 public with sharing class AnimalTriggerHandler {
+
+    /**
+     * @description Automatically creates a new booking when an animal
+     *              record is inserted in the database.
+     *              The date of the booking is defined by the age of the
+     *              animal that is being inserted.
+     * @param animalsById Map of the animals records being inserted in
+     *                    the database
+     */
     public static void createBookingsOnCreation(Map<Id, Animal__c> animalsById) {
         List<Booking__c> newBookings = new List<Booking__c>();
         for (Animal__c animal : animalsById.values()) {
