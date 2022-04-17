@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>AnimalOwner__c</fullName>
     <externalId>false</externalId>
-    <formula>Animal__r.Owner__c</formula>
+    <formula>HYPERLINK(&quot;/&quot; &amp;  Animal__r.Owner__r.Id , Animal__r.Owner__r.FirstName &amp; &quot; &quot; &amp; Animal__r.Owner__r.LastName, &quot;_self&quot;)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Animal Owner</label>
     <required>false</required>
