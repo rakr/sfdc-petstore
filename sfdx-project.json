@@ -1,6 +1,24 @@
 {
   "packageDirectories": [
     {
+      "path": "modules/core-crm"
+    },
+    {
+      "path": "modules/animal-management"
+    },
+    {
+      "path": "modules/booking-management"
+    },
+    {
+      "path": "modules/petstore-ui"
+    },
+    {
+      "path": "modules/petstore-permissions"
+    },
+    {
+      "path": "modules/global"
+    },
+    {
       "path": "force-app",
       "default": true
     }
