@@ -13,6 +13,9 @@
       "path": "modules/product-store"
     },
     {
+      "path": "modules/product-management"
+    },
+    {
       "path": "modules/petstore-ui"
     },
     {

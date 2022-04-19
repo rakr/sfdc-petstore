@@ -9,4 +9,7 @@ trigger AnimalTrigger on Animal__c (after insert) {
     Type handlerType = Type.forName('BookingHandler');
     AnimalTriggerHandler handler = (AnimalTriggerHandler) handlerType.newInstance();
     handler.handle(newAnimals);
+    handlerType = Type.forName('ProductSelector');
+    handler = (AnimalTriggerHandler) handlerType.newInstance();
+    handler.handle(newAnimals);
 }
