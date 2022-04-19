@@ -10,6 +10,9 @@
       "path": "modules/booking-management"
     },
     {
+      "path": "modules/product-store"
+    },
+    {
       "path": "modules/petstore-ui"
     },
     {
