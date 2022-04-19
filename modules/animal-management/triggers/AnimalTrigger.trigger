@@ -6,5 +6,7 @@
  */
 trigger AnimalTrigger on Animal__c (after insert) {
     Map<Id, Animal__c> newAnimals = (Map<Id, Animal__c>) Trigger.newMap;
-    // AnimalTriggerHandler.createBookingsOnCreation(newAnimals);
+    Type handlerType = Type.forName('BookingHandler');
+    AnimalTriggerHandler handler = (AnimalTriggerHandler) handlerType.newInstance();
+    handler.handle(newAnimals);
 }

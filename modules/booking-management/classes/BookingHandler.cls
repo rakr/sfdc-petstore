@@ -2,7 +2,7 @@
  * @description Handles the different database events happening on the
  *              Animal__c SObject.
  */
-public with sharing class AnimalTriggerHandler {
+public with sharing class BookingHandler implements AnimalTriggerHandler {
 
     /**
      * @description Automatically creates a new booking when an animal
@@ -12,7 +12,7 @@ public with sharing class AnimalTriggerHandler {
      * @param animalsById Map of the animals records being inserted in
      *                    the database
      */
-    public static void createBookingsOnCreation(Map<Id, Animal__c> animalsById) {
+    public void handle(Map<Id, Animal__c> animalsById) {
         List<Booking__c> newBookings = new List<Booking__c>();
         for (Animal__c animal : animalsById.values()) {
             Booking__c newBooking = new Booking__c();
